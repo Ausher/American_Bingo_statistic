@@ -18,7 +18,7 @@ Thus 2 will represent except postion 22 is bits others are not bits as the image
 
 until 16777215 will become 111111111111111111111111  
 
-Then we pick the position we want e.g for X shape will pick up positon 0,6,17,23,4,8,15,19 if all of the positions are 1, the combination is match the X shape  
+Then we pick the position we want e.g for X shape will pick up positon 0,6,17,23,4,8,15,19 if all of the status of positions are 1, the combination is match the X shape  
 
 The code will count the number of match under the number of bits,e.g. For X shape if bits 8 numbers will only 1 combination match, 9 bits will 16 combination etc. untill 24bits  
 
