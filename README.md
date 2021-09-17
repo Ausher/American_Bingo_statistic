@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/31215642/133708671-b1e2021a-c9cb-4997-8bb3-903ffa5e10ca.png)
 ---
-The game card is composed of 5X5,but the central is free which means the one default of any number .  
+The game card is composed of 5X5,but the central is free which means the one default to any number .  
 Therefor, only 24 squares will be choose. If we consider each single square could be 2 kinds of status (1=bits,0=not bits)  
 The number of combinations is 2^24=16777216, then we transfer the number from 0-16777215 into binary and filled the number into 24 digits.  
 e.g. 2 could transfer into binary as 10, filled the digit into 24, thus 2 will become  00000000000000000000010  the first of right represent the position 0 of game card, second of right repesent position 1 etc.  
