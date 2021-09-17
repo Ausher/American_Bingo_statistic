@@ -32,7 +32,7 @@ the amount of number we pick up is P
 the bits number is B  
 total squares need to choose on game card is 24*  
 the combination will be combin(24,B) * combin(T-24,P-B) and devide the total combination of pick up is combin(T,P)  
-the formula will be {[combin(24,B)/combin(T-24,P-B)]/combin(T,P)}  
+the formula will be {[combin(24,B) * combin(T-24,P-B)]/combin(T,P)}  
 e.g. if we pick up 44 numbers from 75 numbers and with 8 bits  
 {[combin(24,8) * combin(75-24,44-8)]/combin(75,44)}=2.34518E+18/1.13499E+21=0.00206626126  
 
