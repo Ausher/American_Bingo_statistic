@@ -60,7 +60,7 @@ for i in range(0,16777216):                   # generate number and change into 
     nbbits=x.count('1')                       #count the number of bits in this combination
     line=str(11111111)                        #the number need to match on the card,the X shape require 8 so str(11111111) if only need 4 ,like single diagonal, will be str(1111)  
     try :
-        combinnumber=bitslist[nbbits]         #since the bitslist is an empty dict, if its first match will set as 0, otherwise use the previous record
+        combinnumber=bitslist[nbbits]         #since the bitslist is an empty dict in the beginning, if its first match will set as 0, otherwise use the previous record
     except:
         combinnumber=0
     if x[0]+x[6]+x[17]+x[23]+x[4]+x[8]+x[15]+x[19]==line: #match the position of combination with the shape ,if equal means the combination matched, the position should be  
