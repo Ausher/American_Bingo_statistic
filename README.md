@@ -30,7 +30,7 @@ we still need to calculate the probility of bits, if total number is T, the numb
 the combination will be combin(24,B)/combin(T-24,P-B) and devide the total combination of pick up is combin(T,P)  
 the formula will be {[combin(24,B)/combin(T-24,P-B)]/combin(T,P)}  
 e.g. if we pick up 44 numbers from 75 numbers and with 8 bits  
-{[combin(24,8)/combin(75-24,44-8)]/combin(75,44)}=2.34518E+18/1.13499E+21=0.00206626126  
+{[combin(24,8) * combin(75-24,44-8)]/combin(75,44)}=2.34518E+18/1.13499E+21=0.00206626126  
 
 # Now is the final part
 we make multiply two posibilities shape and bits  
