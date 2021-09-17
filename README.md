@@ -64,7 +64,8 @@ bitslist=pd.DataFrame.from_dict(bitslist,orient='index')
 print(bitslist)    
 
 ```
-the result will be first col1 is the number of bits, col2 is the number of combination which match the shape 
+the result will be first col1 is the number of bits, col2 is the number of combination which match the shape  
+```
         0
 8       1
 9      16
@@ -83,3 +84,4 @@ the result will be first col1 is the number of bits, col2 is the number of combi
 22    120
 23     16
 24      1
+```
