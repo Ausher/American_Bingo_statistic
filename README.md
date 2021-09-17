@@ -37,9 +37,12 @@ we make multiply two posibilities shape and bits
 for example  
 posibility of 8 bits with X shape will be 1/combin(24,8) * 0.00206626126=0.000000002809439475  
 posibility of 9 bits with X shape will be 16/combin(24,9) * {[combin(24,9)/combin(75-24,44-9)]/combin(75,44)}=0.0000001011398211  
-need to sun up all of bits till B=24  
+    .  
+    .  
+    .  
+need to sum up all of bits till B=24  
 
-the websit is a good referance http://www.durangobill.com/BingoHowTo.html  
+this websit is a good referance http://www.durangobill.com/BingoHowTo.html  
 
 
 ```
