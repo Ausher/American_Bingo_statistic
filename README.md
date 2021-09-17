@@ -26,7 +26,11 @@ than divide the total combinations under the number of bits, e.g the probability
 
 # its not over yet!!!  
 this part is no include in the code, but its easy calculate by excel with conbin() formula
-we still need to calculate the probility of bits, if total number is T, the number we pick up is P, the bits number is B, total squares need to choose on game card is 24  
+we still need to calculate the probility of bits, 
+if total number is T  
+the number we pick up is P   
+the bits number is B  
+total squares need to choose on game card is 24   
 the combination will be combin(24,B)* combin(T-24,P-B) and devide the total combination of pick up is combin(T,P)  
 the formula will be {[combin(24,B)/combin(T-24,P-B)]/combin(T,P)}  
 e.g. if we pick up 44 numbers from 75 numbers and with 8 bits  
