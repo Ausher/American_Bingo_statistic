@@ -22,15 +22,15 @@ Then we pick the position we want e.g for X shape will pick up positon 0,6,17,23
 
 The code will count the number of match under the number of bits,e.g. For X shape if bits 8 numbers will only 1 combination match, 9 bits will 16 combination etc. untill 24bits  
 
-than divide the total combinations under the number of bits, e.g the probability X shape happened when bits 8 numbers will be 1/combin(24,8), combin(X,Y) means from X number pick up Y number without order,bit 9 will be 16/combine(24,9) etc. and sum up all of them will have the probility of this special shape.  
+than divide the total combinations under the number of bits, e.g the probability X shape happened when bits 8 numbers will be 1/combin(24,8), *combin(X,Y) means from X number pick up Y number without order*,bit 9 will be 16/combine(24,9) etc. and sum up all of them will have the probility of this special shape.  
 
 # its not over yet!!!  
 this part is no include in the code, but its easy calculate by excel with conbin() formula
 we still need to calculate the probility of bits, 
-if total number is T  
-the number we pick up is P   
+*if total number is T  
+*the number we pick up is P   
 the bits number is B  
-total squares need to choose on game card is 24   
+total squares need to choose on game card is 24*  
 the combination will be combin(24,B)* combin(T-24,P-B) and devide the total combination of pick up is combin(T,P)  
 the formula will be {[combin(24,B)/combin(T-24,P-B)]/combin(T,P)}  
 e.g. if we pick up 44 numbers from 75 numbers and with 8 bits  
