@@ -8,7 +8,7 @@ How to calculate probability American Bingo for special shapes 如何計算美�
 
 ![image](https://user-images.githubusercontent.com/31215642/133708671-b1e2021a-c9cb-4997-8bb3-903ffa5e10ca.png)
 
-'''
+```
 
 
 
@@ -19,7 +19,6 @@ for i in range(0,16777216):                   #the game card is composed of 5X5,
     #print(x)
     nbbits=x.count('1')
     line=str(11111111)
-
 
     try :
         combinnumber=bitslist[nbbits]
@@ -33,4 +32,4 @@ print(bitslist)
 
 
 
-'''
+```
