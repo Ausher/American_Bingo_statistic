@@ -26,7 +26,7 @@ than divide the total combinations under the number of bits, e.g the probability
 
 # its not over yet!!!  
 this part is no include in the code, but its easy to calculate by excel with conbin() formula  
-we still need to calculate the probility of bits, 
+we still need to calculate the probility of bits,  
 *if total number is T  
 the number we pick up is P   
 the bits number is B  
