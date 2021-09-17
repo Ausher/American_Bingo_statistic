@@ -37,7 +37,7 @@ e.g. if we pick up 44 numbers from 75 numbers and with 8 bits
 {[combin(24,8) * combin(75-24,44-8)]/combin(75,44)}=2.34518E+18/1.13499E+21=0.00206626126  
 
 # Now is the final part
-we multiply two posibilities shape and bits  and sum up (just like dot product of two)
+we multiply two posibilities shape and bits  and sum up (just like dot product of two)  
 for example  
 posibility of 8 bits with X shape will be 1/combin(24,8) * 0.00206626126=0.000000002809439475  
 posibility of 9 bits with X shape will be 16/combin(24,9) * {[combin(24,9)* combin(75-24,44-9)]/combin(75,44)}=0.0000001011398211  
