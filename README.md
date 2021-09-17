@@ -13,7 +13,9 @@ Therefor, only 24 squares will be choose. If we consider each single square coul
 The number of combinations is 2^24=16777216, then we transfer the number from 0-16777215 into binary and filled the number into 24 digits.
 e.g. 2 could transfer into binary as 10, filled the digit into 24, thus 2 will become  00000000000000000000010  the first of right represent the position 0 of game card, second of right repesent position 1 etc. Thus 2 will represent except postion 22 is bits others are not bits as the image below
 
+![image](https://user-images.githubusercontent.com/31215642/133711427-ff8f43a6-9a48-4f1c-b346-270a0b45f9d7.png)
 
+until 16777215 will become 111111111111111111111111
 ```
 
 
