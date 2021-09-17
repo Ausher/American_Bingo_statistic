@@ -51,8 +51,7 @@ bitslist={}
 for i in range(0,16777216):                   # generate number and change into binary and filled up to 24 digits, the number transferd is a combination of position
     x=bin(i).replace('0b','').zfill(24)         
     nbbits=x.count('1')                       #count the number of bits in this combination
-    line=str(11111111)                        #the number need to match on the card,the X shape require 8 so str(11111111) if only need 4 ,like single diagonal, will be                                                      str(1111)
-
+    line=str(11111111)                        #the number need to match on the card,the X shape require 8 so str(11111111) if only need 4 ,like single diagonal, will be str(1111)  
     try :
         combinnumber=bitslist[nbbits]         #since the bitslist is an empty dict, if its first match will set as 0, otherwise use the previous record
     except:
