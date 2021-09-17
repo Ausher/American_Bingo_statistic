@@ -1,5 +1,5 @@
 # American_Bingo_statistic 美式賓果計算
-## How to calculate probability American Bingo for special shapes   
+## How to calculate probability of American Bingo for special shapes   
 如何計算美式賓果特殊圖形的機率  
 ### 概要  
 這邊用X型程式碼做為介紹,基本上需要在圖形上任選8個點的圖形都適用一樣的規則僅需改變特定點的抽取位置,如T型或是傳過中間點的十字型  
