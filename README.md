@@ -25,7 +25,7 @@ The code will count the number of match under the number of bits,e.g. For X shap
 than divide the total combinations under the number of bits, e.g the probability X shape happened when bits 8 numbers will be 1/combin(24,8), *combin(X,Y) means from X number pick up Y number without order*,bit 9 will be 16/combine(24,9) etc. and sum up all of them will have the probility of this special shape.  
 
 # its not over yet!!!  
-this part is no include in the code, but its easy calculate by excel with conbin() formula
+this part is no include in the code, but its easy to calculate by excel with conbin() formula  
 we still need to calculate the probility of bits, 
 *if total number is T  
 the number we pick up is P   
